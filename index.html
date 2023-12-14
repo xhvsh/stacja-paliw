@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacja Paliw</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stacja Paliw ~ Oblicz cenę za paliwo</h1>
+      <div class="prices">
+        <div class="box">
+          <span>95</span>
+          <p>6,35<span> PLN</span></p>
+        </div>
+        <div class="box">
+          <span>98</span>
+          <p>6,88<span> PLN</span></p>
+        </div>
+        <div class="box">
+          <span>ON</span>
+          <p>6,54<span> PLN</span></p>
+        </div>
+        <div class="box">
+          <span>ON+</span>
+          <p>6,85<span> PLN</span></p>
+        </div>
+        <div class="box">
+          <span>LPG</span>
+          <p>2,96<span> PLN</span></p>
+        </div>
+      </div>
+      <div class="form">
+        <div class="type">
+          <span>Wybierz rodzaj paliwa</span>
+          <select>
+            <option value="95">95</option>
+            <option value="98">98</option>
+            <option value="ON">ON</option>
+            <option value="ON+">ON+</option>
+            <option value="LPG">LPG</option>
+          </select>
+        </div>
+        <div class="amount">
+          <span>Wybierz ilość paliwa (Litry)</span>
+          <input type="number" min="1" max="145" placeholder='Min: 1, Max: 145' />
+        </div>
+        <button type="button">Oblicz cenę</button>
+      </div>
+      <div class="price">
+        <div class="number">
+          <span class="n n1">0 1 2 3 4 5 6 7 8 9</span>
+          <span class="n n2">0 1 2 3 4 5 6 7 8 9</span>
+          <span class="n n3">0 1 2 3 4 5 6 7 8 9</span>,
+          <span class="n n4">0 1 2 3 4 5 6 7 8 9</span>
+          <span class="n n5">0 1 2 3 4 5 6 7 8 9</span>&nbsp;PLN
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
